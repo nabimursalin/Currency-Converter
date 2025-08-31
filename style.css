@@ -31,7 +31,8 @@ h4{
 }
 .content-box{
     background:#E9E9E9;
-    width: 25vw;
+    min-width:280px;
+    max-width:380px;
     height: auto;
     text-align:center;
     border-radius:10px;
@@ -54,13 +55,14 @@ h4{
     border:none;
 }
 .amount {
-    width:20vw;
-    height:5vh;
+    width:180px;
+    height:auto;
     outline:none;
     border:none;
     border-radius:4px;
     text-align:center;
     font-size:1rem;
+    padding:8px;
 }
 button{
     margin:18px;
@@ -83,8 +85,8 @@ span{
     margin-top:5px;
 }
 .result{
-     width:20vw;
-    height:5vh;
+     width:180px;
+    height:auto;
     background:#ffffff;
     border-radius:4px;
     text-align:center;
@@ -93,10 +95,10 @@ span{
     display:flex;
     font-size:1rem;
     margin:auto;
-}
-.result p{
-    font-family: "Montserrat", sans-serif;
+    padding:8px;
+     font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight:400 ;
   font-style: normal;
 }
+
